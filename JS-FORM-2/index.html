@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-suite-POO</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- EXO 3 JAVASCRIPT INTERMEDIAIRE
+
+<div class="container">
+  <button onclick="openBtn()"id="openModalBtn">Ouvrir la modale</button>
+  
+  <div class="modale">
+    <div class="modaleText">
+    </div>
+    <div class="buttonModale">
+      <button onclick="closeBtn()" id="closeModalBtn">X</button>
+    </div>
+  </div>
+</div>!-->
+
+</body>
+<script src="index.js"></script>
+<!-- EXO 3 JAVASCRIPT INTERMEDIAIRE
+<script>
+    let modale= document.getElementsByClassName('modale')[0];
+    console.log(modale);
+    
+    let modaleText = document.getElementsByClassName('modaleText')[0];
+    let closeModale = document.getElementById('closeModalBtn');
+    let openModale = document.getElementById('openModalBtn');
+    let screen = window.get
+
+
+    console.log(closeModale);
+    
+
+    const titreModale = document.createElement('h1')
+    const contenuTitre = document.createTextNode('Voici le titre de la modale')
+    titreModale.appendChild(contenuTitre);
+    modaleText.appendChild(titreModale)
+    console.log(modaleText);
+
+    const texteModale = document.createElement('p')
+    const contenuModale = document.createTextNode('Voici le contenu de la modale')
+    texteModale.appendChild(contenuModale);
+    modaleText.appendChild(texteModale)
+
+    function closeBtn(){
+        modale.classList.remove('visible');
+    }
+function openBtn(){
+    modale.classList.add('visible');
+
+}
+window.addEventListener('click', function(event) {
+  if (
+    modale.classList.contains('visible') && event.target !== openModale){
+    closeBtn();
+  }
+});
+
+    
+
+
+
+
+
+    
+</script> -->
+</html>   

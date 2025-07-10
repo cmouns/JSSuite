@@ -1,0 +1,6 @@
+.modale{
+    display: none;
+}
+.modale.visible{
+    display: block;
+}
